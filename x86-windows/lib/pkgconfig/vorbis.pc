@@ -1,0 +1,15 @@
+# libvorbis pkg-config source file
+
+prefix=C:/p/git/vcpkg/packages/libvorbis_x86-windows
+exec_prefix=C:/p/git/vcpkg/packages/libvorbis_x86-windows/bin
+libdir=C:/p/git/vcpkg/packages/libvorbis_x86-windows/lib
+includedir=C:/p/git/vcpkg/packages/libvorbis_x86-windows/include
+
+Name: vorbis
+Description: vorbis is the primary Ogg Vorbis library
+Version: 1.3.5
+Requires.private: ogg
+Conflicts:
+Libs: -L${libdir} -lvorbis 
+Libs.private: -lm
+Cflags: -I${includedir}

@@ -1,0 +1,14 @@
+# libvorbisenc pkg-config source file
+
+prefix=C:/p/git/vcpkg/packages/libvorbis_x86-windows
+exec_prefix=C:/p/git/vcpkg/packages/libvorbis_x86-windows/bin
+libdir=C:/p/git/vcpkg/packages/libvorbis_x86-windows/lib
+includedir=C:/p/git/vcpkg/packages/libvorbis_x86-windows/include
+
+Name: vorbisenc
+Description: vorbisenc is a library that provides a convenient API for setting up an encoding environment using libvorbis
+Version: 1.3.5
+Requires.private: vorbis
+Conflicts:
+Libs: -L${libdir} -lvorbisenc
+Cflags: -I${includedir}

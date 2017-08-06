@@ -1,0 +1,14 @@
+# ogg pkg-config file
+
+prefix=C:/p/git/vcpkg/packages/libogg_x86-windows/debug
+exec_prefix=C:/p/git/vcpkg/packages/libogg_x86-windows/debug/bin
+libdir=C:/p/git/vcpkg/packages/libogg_x86-windows/debug/lib
+includedir=C:/p/git/vcpkg/packages/libogg_x86-windows/debug/include
+
+Name: ogg
+Description: ogg is a library for manipulating ogg bitstreams
+Version: 1.3.2
+Requires:
+Conflicts:
+Libs: -L${libdir} -logg
+Cflags: -I${includedir}
